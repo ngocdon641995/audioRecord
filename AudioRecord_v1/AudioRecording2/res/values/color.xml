@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_normal">#FFFDBF</color> <!--yellow-->
+	<color name="background_pressed">#BFFFF9</color> <!--blue-->
+	<color name="background_selected">#FF6E6E</color> <!--red-->
+</resources>

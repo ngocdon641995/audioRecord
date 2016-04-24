@@ -1,0 +1,21 @@
+package com.example.audiorecording2;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.content.Context;
+import android.widget.ArrayAdapter;
+import myclass.AudioFile;
+
+public class CustomAdapter  extends ArrayAdapter<AudioFile> {
+
+	Activity _context;
+	ArrayList<AudioFile> _listItem;
+	int _layoutid;
+	
+	public CustomAdapter(Context context, int resource, AudioFile[] objects) {
+		super(context, resource, objects);
+		// TODO Auto-generated constructor stub
+	}
+
+}

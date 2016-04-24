@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+D:\Dropbox\GITHUB\audio_v1\audioRecord\AudioRecord_v1\.metadata\.plugins\org.eclipse.jdt.core
+2808480097.index

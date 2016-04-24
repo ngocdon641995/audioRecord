@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+      <!--
+   <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageView"
+      android:src="@drawable/logo"
+      android:layout_below="@+id/textView2"
+      android:layout_alignLeft="@+id/textView2"
+      android:layout_alignStart="@+id/textView2"
+      android:layout_alignRight="@+id/textView2"
+      android:layout_alignEnd="@+id/textView2" />
+      
+      
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerInParent="true"
+       android:layout_marginTop="102dp"
+       android:text="00:00:00"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:textSize="50sp" />
+       -->
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:paddingTop="150dp">
+            
+       <Chronometer
+       android:id="@+id/chrWatch"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:textSize="50dp"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:text="Chronometer" />
+       
+   </LinearLayout>
+   
+   
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center_horizontal"
+       android:paddingTop="100dp">
+
+      <Button
+      android:id="@+id/btnCancel"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="@drawable/delete"/>
+      
+      <Button
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:background="@drawable/custom"
+      android:id="@+id/btnRecord"/>
+
+      <Button
+       android:id="@+id/btnDone"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:background="@drawable/stop" />
+      
+   </LinearLayout>
+   
+	<!--<Button
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:background="@drawable/custom"
+      android:id="@+id/btnRecord"
+      android:layout_alignParentBottom="true"
+      android:layout_centerInParent="true"/>
+       
+
+   <Button
+       android:id="@+id/btnCancel"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_alignTop="@+id/btnRecord"
+       android:layout_toLeftOf="@+id/btnRecord"
+       android:background="@drawable/delete" />
+
+   <Button
+       android:id="@+id/btnDone"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_alignTop="@+id/btnRecord"
+       android:layout_toRightOf="@+id/btnRecord"
+       android:background="@drawable/stop" />-->
+</LinearLayout>
